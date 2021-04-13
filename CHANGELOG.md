@@ -1,4 +1,4 @@
-# context-template ChangeLog
+# zcap-context ChangeLog
 
 ## 1.0.0 - TBD
 
