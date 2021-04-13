@@ -1,10 +1,10 @@
-# Context Template Repository _(context-template)_
+# Authorization Capabilities (zCap) Context Repository _(zcap-context)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/context-template/Node.js%20CI)](https://github.com/digitalbazaar/context-template/actions?query=workflow%3A%22Node.js+CI%22)
-[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/context-template)](https://codecov.io/gh/digitalbazaar/context-template)
-[![NPM Version](https://img.shields.io/npm/v/context-template.svg)](https://npm.im/context-template)
+[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/zcap-context/Node.js%20CI)](https://github.com/digitalbazaar/zcap-context/actions?query=workflow%3A%22Node.js+CI%22)
+[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/zcap-context)](https://codecov.io/gh/digitalbazaar/zcap-context)
+[![NPM Version](https://img.shields.io/npm/v/zcap-context.svg)](https://npm.im/zcap-context)
 
-> A GitHub template repository for JSON-LD contexts.
+> An Authorization Capability (zCap) JSON-LD context for JavaScript.
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@
 
 See also (related specs):
 
-*
+* [Authorization Capabilities for Linked Data v0.3](https://w3c-ccg.github.io/zcap-ld/)
 
 ## Install
 
@@ -27,32 +27,24 @@ Requires Node.js 12+
 To install via NPM:
 
 ```
-npm install context-template
+npm install zcap-context
 ```
 
 ## Usage
 
 ```js
-const {
-  contexts, constants, appContextMap, documentLoader
-} = require('context-template');
+const zcap = require('zcap-context');
 
-// use URL in a JSON-LD context
-const obj = {
-  "@context": [
-    constants.CONTEXT_URL,
-    // ...
-  ],
-  // ...
-};
+zcap.CONTEXT_URL
+// 'https://w3id.org/zcap/v1'
 
 // Codec term map value for CBOR-LD
-constants.CBORLD_CODEC_VALUE
-// 0x0..
+zcap.constants.CBORLD_CODEC_VALUE
+// 0x1A
 
 // get context data for a specific context
-const data = contexts.get('https://w3id.org/example/v1');
-// ...
+zcap.CONTEXT
+// full context object
 ```
 
 This package can be used with bundlers, such as [webpack][], in browser
@@ -61,12 +53,13 @@ applications.
 ## API
 
 The library exports the following properties:
+- `CONTEXT_URL`
+- `CONTEXT`
 - `constants`: A Object that maps constants to well-known context URLs. The
   main constant `CONTEXT_URL` may be updated from time to time to the
   latest context location.
 - `contexts`: A `Map` that maps URLs to full context data.
 - `appContextMap`: For use with `cborld` library.
-- `documentLoader`
 
 
 ## Commercial Support
