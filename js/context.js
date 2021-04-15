@@ -10,8 +10,8 @@ module.exports = {
     '@protected': true,
 
     allowedAction: 'https://w3id.org/security#allowedAction',
-    alsoKnownAs: {
-      '@id': 'https://www.w3.org/ns/activitystreams#alsoKnownAs',
+    publicAlias: {
+      '@id': 'https://w3id.org/security#publicAlias',
       '@type': '@id'
     },
     capability: {
