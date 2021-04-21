@@ -58,6 +58,11 @@ module.exports = {
       '@id': 'https://w3id.org/security#parentCapability',
       '@type': '@id'
     },
+    proof: {
+      '@id': 'https://w3id.org/security#proof',
+      '@type': '@id',
+      '@container': '@graph'
+    },
     referenceId: 'https://w3id.org/security#referenceId'
   }
 };
