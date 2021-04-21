@@ -12,5 +12,5 @@ const constants = require('../js/constants');
 // Serialize the context as JSON-LD
 fs.writeFileSync(
   path.join(__dirname, '..', 'contexts', constants.CONTEXT_FILENAME),
-  JSON.stringify(context, null, 2)
+  JSON.stringify(context, null, 2) + '\n'
 );
