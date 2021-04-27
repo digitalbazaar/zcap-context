@@ -47,7 +47,7 @@ module.exports = {
       '@type': '@id'
     },
     expires: {
-      '@id': 'https://w3id.org/security#expires',
+      '@id': 'https://w3id.org/security#expiration',
       '@type': 'http://www.w3.org/2001/XMLSchema#dateTime'
     },
     invocationTarget: {
