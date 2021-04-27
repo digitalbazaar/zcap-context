@@ -46,6 +46,10 @@ module.exports = {
       '@id': 'https://w3id.org/security#delegator',
       '@type': '@id'
     },
+    expires: {
+      '@id': 'https://w3id.org/security#expires',
+      '@type': 'http://www.w3.org/2001/XMLSchema#dateTime'
+    },
     invocationTarget: {
       '@id': 'https://w3id.org/security#invocationTarget',
       '@type': '@id'
