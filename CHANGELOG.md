@@ -1,6 +1,6 @@
 # zcap-context ChangeLog
 
-## 1.2.1 - 2021-04-TBD
+## 1.2.1 - 2021-04-27
 
 ### Fix
 - Fix `@id` for `expires`.
