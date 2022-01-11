@@ -1,6 +1,6 @@
 {
   "name": "@digitalbazaar/zcap-context",
-  "version": "2.0.0",
+  "version": "2.0.1-0",
   "description": "Authorization Capability (ZCAP) context for JavaScript.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
