@@ -1,7 +1,7 @@
 {
-  "name": "zcap-context",
+  "name": "@digitalbazaar/zcap-context",
   "version": "1.2.2-0",
-  "description": "An Authorization Capability (zCap) JSON-LD context for JavaScript.",
+  "description": "Authorization Capability (ZCAP) context for JavaScript.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
   "files": [

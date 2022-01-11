@@ -1,4 +1,9 @@
-# zcap-context ChangeLog
+# @digitalbazaar/zcap-context ChangeLog
+
+## 2.0.0 - 2022-01-xx
+
+### Changed
+- **BREAKING**: Rename package to `@digitalbazaar/zcap-context`.
 
 ## 1.2.1 - 2021-04-27
 
