@@ -1,8 +1,7 @@
-# Authorization Capabilities (zCap) Context Repository _(zcap-context)_
+# Authorization Capabilities (zCap) Context Repository _(@digitalbazaar/zcap-context)_
 
-[![Build status](https://img.shields.io/github/workflow/status/digitalbazaar/zcap-context/Node.js%20CI)](https://github.com/digitalbazaar/zcap-context/actions?query=workflow%3A%22Node.js+CI%22)
-[![Coverage status](https://img.shields.io/codecov/c/github/digitalbazaar/zcap-context)](https://codecov.io/gh/digitalbazaar/zcap-context)
-[![NPM Version](https://img.shields.io/npm/v/zcap-context.svg)](https://npm.im/zcap-context)
+[![Build status](https://img.shields.io/github/actions/workflow/status/digitalbazaar/zcap-context/main.yml)](https://github.com/digitalbazaar/zcap-context/actions/workflow/main.yml)
+[![NPM Version](https://img.shields.io/npm/v/@digitalbazaar/zcap-context.svg)](https://npm.im/@digitalbazaar/zcap-context)
 
 > An Authorization Capability (zCap) JSON-LD context for JavaScript.
 
@@ -27,19 +26,19 @@ Requires Node.js 12+
 To install via NPM:
 
 ```
-npm install zcap-context
+npm install @digitalbazaar/zcap-context
 ```
 
 ## Usage
 
 ```js
-const zcap = require('zcap-context');
+const zcap = require('@digitalbazaar/zcap-context');
 
 zcap.CONTEXT_URL
 // 'https://w3id.org/zcap/v1'
 
 // Codec term map value for CBOR-LD
-zcap.constants.CBORLD_CODEC_VALUE
+zcap.constants.CBORLD_VALUE
 // 0x1A
 
 // get context data for a specific context
