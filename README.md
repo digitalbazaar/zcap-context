@@ -17,7 +17,7 @@
 
 See also (related specs):
 
-* [Authorization Capabilities for Linked Data v0.3](https://w3c-ccg.github.io/zcap-ld/)
+* [Authorization Capabilities for Linked Data v0.3](https://w3c-ccg.github.io/zcap-spec/)
 
 ## Install
 
