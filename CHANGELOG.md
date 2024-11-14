@@ -1,6 +1,6 @@
 # @digitalbazaar/zcap-context ChangeLog
 
-## 2.0.1 - 2024-11-xx
+## 2.0.1 - 2024-11-13
 
 ### Changed
 - Test on Node.js 18.x, 20.x, and 22.x.
