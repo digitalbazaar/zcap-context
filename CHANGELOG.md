@@ -2,6 +2,9 @@
 
 ## 2.0.1 - 2024-11-xx
 
+### Changed
+- Test on Node.js 18.x, 20.x, and 22.x.
+
 ### Fixed
 - Distribute built ESM files.
 
