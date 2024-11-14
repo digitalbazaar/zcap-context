@@ -4,6 +4,7 @@
 
 ### Changed
 - Test on Node.js 18.x, 20.x, and 22.x.
+- Require Node.js >=18.
 
 ### Fixed
 - Distribute built ESM files.
