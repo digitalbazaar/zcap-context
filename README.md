@@ -10,6 +10,7 @@
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
+- [Developing](#developing)
 - [Commercial Support](#commercial-support)
 - [License](#license)
 
