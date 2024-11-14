@@ -1,5 +1,10 @@
 # @digitalbazaar/zcap-context ChangeLog
 
+## 2.0.1 - 2024-11-xx
+
+### Fixed
+- Distribute built ESM files.
+
 ## 2.0.0 - 2022-01-11
 
 ### Changed
