@@ -56,7 +56,7 @@
   "scripts": {
     "build": "npm run clean && npm run serialize && webpack && rollup -c",
     "clean": "rm -rf dist/* && rm -rf contexts/*.jsonld",
-    "lint": "eslint js test",
+    "lint": "eslint --ext .cjs,.js .",
     "prepare": "npm run build",
     "serialize": "node bin/serialize.js",
     "test": "npm run lint && npm run build && npm run test-node && npm run test-karma",
